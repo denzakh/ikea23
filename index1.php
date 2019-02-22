@@ -8,7 +8,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>Главная</title>
+		<title>Ikea23</title>
+    <meta charset="UTF-8">
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
     <style>

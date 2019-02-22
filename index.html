@@ -1,0 +1,1775 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Главная</title>
+    <meta charset="UTF-8">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+    <style>
+      body * {
+        box-sizing: border-box;
+      }
+      body {
+        position: relative;
+        font-family: Verdana, Arial, serif;
+        font-size: 13px;
+        line-height: 1.4;
+      }
+      .main__row {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        max-width: 780px;
+      }
+      .main__col-aside {
+        width: 300px;
+        padding-right: 30px;
+      }
+      .main__col-main {
+        width: 400px;
+        flex-grow: 2;
+      }
+      table {
+        border-collapse:collapse;
+      }
+      td {
+        padding: 0 10px;
+        padding-left: 0;
+        min-width: 100px;
+      }
+      p {
+        margin-bottom: 1.4em;
+      }
+      .main__main-table td {
+        background-color: #ebebeb;
+      }
+      .main__main-table td:first-child {
+        background-color: #fff;
+      }
+      .main__main-table td:nth-child(2n) {
+        text-align: center;
+      }
+      .main__main-table td:last-child {
+        text-align: right;
+      }
+      header {
+       position: relative;
+      }
+      .header__select {
+        position: absolute;
+        top: 12px;
+        left: 295px;
+        height: 25px;
+        width: 242px;
+        border: 2px solid #cccccc;
+        font-size: 12px;
+        outline: none;
+      }
+      h1 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      .header__sn {
+        position: absolute;
+        top: 50px;
+        left: 2px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      .header__desc {
+        position: absolute;
+        top: 145px;
+        left: 5px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      .header__desc-name {
+        text-transform: uppercase;
+      }
+      .product__gallery-big-photo {
+        width: 100%;
+        height: 300px;
+        background-position: 50% 50%;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+      }
+      .product__gallery-thumbs-row {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #cccccc;
+      }
+      .product__gallery-item {}
+      .product__gallery-thumbs {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        cursor: pointer;
+        background-position: 50% 50%;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      .product__gallery-thumbs.is-active {
+        outline: 1px solid orange;
+      }
+      .product__gallery-thumbs:hover {
+        opacity: 0.9;
+      }
+      .product__btn {
+        display: block;
+        vertical-align: top;
+        background-color: #c0c0c0;
+        padding: 8px 15px;
+        text-align: center;
+        font-size: 13px;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+      .product__btn:hover {
+        opacity: 0.9;
+      }
+    </style>
+	</head>
+	<body>
+		<div class="body-wrapper">
+      <header>
+        <img src="/img/header.jpg" alt="" class="header__top-img">
+        <select id="" class="header__select js-select">
+                            <option value="0">Вадим Сыроегин</option>
+                            <option value="1">Александр Подворный </option>
+                            <option value="2">Артем Петрушин </option>
+                            <option value="3"> Сергей Прокопов</option>
+                            <option value="4"> Александр Горьканов</option>
+                            <option value="5">Алексей Крупин</option>
+                            <option value="6">Дмитрий Рамашевский</option>
+                            <option value="7"> Сергей Гончаров</option>
+                            <option value="8">Василий Кузьмин</option>
+                            <option value="9">Сергей Фирсов</option>
+                            <option value="10">Константин Захаров</option>
+                            <option value="11">Дмитрий Драб</option>
+                </select>
+      </header>
+			<main class="main main--main">
+        <div class="main__tab-list">
+                          <div class="js-tab main__tab main__tab--0" id="tab-0">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Вадим Сыроегин</h1>
+                <div class="header__sn">4036600</div>
+                <div class="header__desc"><span class="header__desc-name">Вадим Сыроегин</span> &nbsp; &nbsp;| varsyr &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176420</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/varsyr1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/varsyr1.jpg" style="background-image: url('/img/varsyr1.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 69.2 дюйм</td>
+                      <td>Метрическая <br> 1.73 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>71.2 дюйм
+                      </td><td>1.78 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Служил в армии                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Хорошо стреляет                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Здоровое питание. Прогулки на свежем воздухе.                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Если надо, то будет сортировать мусор                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td>Чистая Сталь</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--1" id="tab-1">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Александр Подворный </h1>
+                <div class="header__sn">4036601</div>
+                <div class="header__desc"><span class="header__desc-name">Александр Подворный </span> &nbsp; &nbsp;| alpod &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176421</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/alpod1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alpod1.jpg" style="background-image: url('/img/alpod1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alpod2.jpg" style="background-image: url('/img/alpod2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alpod3.jpg" style="background-image: url('/img/alpod3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 74.4 дюйм</td>
+                      <td>Метрическая <br> 1.86 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>76.4 дюйм
+                      </td><td>1.91 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Проворный, сообразительный, организованный                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Рыжий                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Крайне необходим регулярный сон и здоровое питание                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Самовоспламеняющийся                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td>Чистое золото</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--2" id="tab-2">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Артем Петрушин </h1>
+                <div class="header__sn">4036602</div>
+                <div class="header__desc"><span class="header__desc-name">Артем Петрушин </span> &nbsp; &nbsp;| arpet &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176422</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/arpet1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/arpet1.jpg" style="background-image: url('/img/arpet1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/arpet2.jpg" style="background-image: url('/img/arpet2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/arpet4.jpg" style="background-image: url('/img/arpet4.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 72 дюйм</td>
+                      <td>Метрическая <br> 1.80 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>74 дюйм
+                      </td><td>1.85 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Любит цветы и животных                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Обладает тонким эстетическим вкусом. Создает прекрасные композиции из цветов, а также из кухонной мебели ИКЕА                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Любит лакричные конфеты. Раз в три-четыре месяца необходимы путешествия в теплые страны с мягким морским климатом, просто, потому что Артем очень любит море.                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Крайне экологичен                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--3" id="tab-3">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1> Сергей Прокопов</h1>
+                <div class="header__sn">4036603</div>
+                <div class="header__desc"><span class="header__desc-name"> Сергей Прокопов</span> &nbsp; &nbsp;| sepro &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176423</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/sepro1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sepro1.jpg" style="background-image: url('/img/sepro1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sepro2.jpg" style="background-image: url('/img/sepro2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sepro3.jpg" style="background-image: url('/img/sepro3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 72.8 дюйм</td>
+                      <td>Метрическая <br> 1.82 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>74.8 дюйм
+                      </td><td>1.87 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Пастафарианин                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Обладатель прекрасного чувства юмора. Скучать с этим молодым человеком просто не придется. Благодаря высокому интеллекту и тонкой душевной организации сохраняет интерес к собственой персоне на протяжении долгого времени.                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Здоровое питание. периодически рекомендуется отращивать бороду и ограничивать доступ к интернету                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Нужно тчательно следить, чтобы не выкинул чего лишнего                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td>Макаронина</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--4" id="tab-4">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1> Александр Горьканов</h1>
+                <div class="header__sn">4036604</div>
+                <div class="header__desc"><span class="header__desc-name"> Александр Горьканов</span> &nbsp; &nbsp;| algor &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176424</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/algor1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/algor1.jpg" style="background-image: url('/img/algor1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/algor2.jpg" style="background-image: url('/img/algor2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/algor3.jpg" style="background-image: url('/img/algor3.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/algor4.jpg" style="background-image: url('/img/algor4.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 70.4 дюйм</td>
+                      <td>Метрическая <br> 1.76 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>72.4 дюйм
+                      </td><td>1.81 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Эстет                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Умен. Слегка резок. Обладает сильным нордическим характером.                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Любит природу, архитектуру и машинки                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Если надо, то будет сортировать мусор                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--5" id="tab-5">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Алексей Крупин</h1>
+                <div class="header__sn">4036605</div>
+                <div class="header__desc"><span class="header__desc-name">Алексей Крупин</span> &nbsp; &nbsp;| alkru &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176425</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/alkru1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alkru1.jpg" style="background-image: url('/img/alkru1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alkru2.jpg" style="background-image: url('/img/alkru2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alkru3.jpg" style="background-image: url('/img/alkru3.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/alkru4.jpg" style="background-image: url('/img/alkru4.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 70 дюйм</td>
+                      <td>Метрическая <br> 1.75 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>72 дюйм
+                      </td><td>1.8 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Фотограф                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Очень любит путешествовать.  Отзывчивый. Обладает сильным характером и хорошим чувством юмора.                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Необходимо следить за питанием и раз в 3 дня водить в спортклуб. Хотя Леша и так неотразим, такой режим позволит ему быть просто в ослепительно шикарной форме                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Если надо, то будет сортировать мусор                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--6" id="tab-6">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Дмитрий Рамашевский</h1>
+                <div class="header__sn">4036606</div>
+                <div class="header__desc"><span class="header__desc-name">Дмитрий Рамашевский</span> &nbsp; &nbsp;| dmram &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176426</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/dmram1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/dmram1.jpg" style="background-image: url('/img/dmram1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/dmram2.jpg" style="background-image: url('/img/dmram2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/dmram3.jpg" style="background-image: url('/img/dmram3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 76 дюйм</td>
+                      <td>Метрическая <br> 1.90 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>78 дюйм
+                      </td><td>1.95 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Самый высокий                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Любит правила. Почти никогда их не нарушает. Не позволяет остальным нарушать правила.                   </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Исполнительный и обязательный. Следит за регулярностью питания. Крайняя степень честности в отношениях просто необходима. Можно иногда ограничивать доступ к интернету                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Самовоспламеняющийся                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--7" id="tab-7">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1> Сергей Гончаров</h1>
+                <div class="header__sn">4036607</div>
+                <div class="header__desc"><span class="header__desc-name"> Сергей Гончаров</span> &nbsp; &nbsp;| segor &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176427</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/segor1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/segor1.jpg" style="background-image: url('/img/segor1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/segor2.png" style="background-image: url('/img/segor2.png')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/segor3.jpg" style="background-image: url('/img/segor3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 73.6 дюйм</td>
+                      <td>Метрическая <br> 1.84 - 1,86 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>75.6 дюйм
+                      </td><td>1.89 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                   Московская прописка                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Обладатель гордого римского профиля. Молчилив. Ответсвенный, последовательный. Необходимы прогулки на свежем воздухе. Регулярное питание и здоровый сон.                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Переодически необходимо проводить интеллектуальные беседы и водить на культурные мероприятия.                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Если надо, то будет сортировать мусор                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--8" id="tab-8">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Василий Кузьмин</h1>
+                <div class="header__sn">4036608</div>
+                <div class="header__desc"><span class="header__desc-name">Василий Кузьмин</span> &nbsp; &nbsp;| vakuz &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176428</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/vakuz1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/vakuz1.jpg" style="background-image: url('/img/vakuz1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/vakuz2.jpg" style="background-image: url('/img/vakuz2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/vakuz3.jpg" style="background-image: url('/img/vakuz3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 70 дюйм</td>
+                      <td>Метрическая <br> 1.75 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>72 дюйм
+                      </td><td>1.8 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Интеллигент                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Веселый и очень добрый. Судя по всему любит изобразительное искусство.                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Здоровое питание, регулярный сон. Прогулки на свежем воздухе. Нужно ходить вместе с ним на выставки изобразительного искусства. Вася любит обнаженную женскую натуру                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Если надо, то будет сортировать мусор                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--9" id="tab-9">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Сергей Фирсов</h1>
+                <div class="header__sn">4036609</div>
+                <div class="header__desc"><span class="header__desc-name">Сергей Фирсов</span> &nbsp; &nbsp;| sefir &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE3176429</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/sefir1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sefir1.jpg" style="background-image: url('/img/sefir1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sefir2.jpg" style="background-image: url('/img/sefir2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sefir3.jpg" style="background-image: url('/img/sefir3.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/sefir4.jpg" style="background-image: url('/img/sefir4.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 72.4 дюйм</td>
+                      <td>Метрическая <br> 1.81 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>74.4 дюйм
+                      </td><td>1.86 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Обаятельный                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Очень артистичный. Обладает прияным и хорошо поставленным голосом и богатым словарным запасом. Эрудит. Бысто обучаем. Последователен в своих решениях.                   </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Необходимы здоровое питание и занятия спортом. Иногда нужны шумные компании друзей. Любит вкусняшки                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Если надо, то будет сортировать мусор                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--10" id="tab-10">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Константин Захаров</h1>
+                <div class="header__sn">40366010</div>
+                <div class="header__desc"><span class="header__desc-name">Константин Захаров</span> &nbsp; &nbsp;| kozak &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE31764210</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/kozak1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/kozak1.jpg" style="background-image: url('/img/kozak1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/kozak2.jpg" style="background-image: url('/img/kozak2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/kozak3.jpg" style="background-image: url('/img/kozak3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 71.2 дюйм</td>
+                      <td>Метрическая <br> 1.78 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>73.2 дюйм
+                      </td><td>1.83 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Сильный и выносливый мужчина                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Не боится холодной воды. Следит за питанием.                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Также необходимы частые прогулки на свежем воздухе. Лучше пробежки.                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Любит природу и никогда ей не навредит                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td>Из пота и слез и немножко волос</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                          <div class="js-tab main__tab main__tab--11" id="tab-11">
+            <div class="main__row">
+              <div class="main__col-aside">
+                <h1>Дмитрий Драб</h1>
+                <div class="header__sn">40366011</div>
+                <div class="header__desc"><span class="header__desc-name">Дмитрий Драб</span> &nbsp; &nbsp;| dmdra &nbsp; &nbsp; |
+                </div>
+                <b><small>PE-номер PE31764211</small></b><br><br>
+                <div class="product__gallery js-mini-gallery">
+                  <div class="product__gallery-big-box">
+                      <div class="product__gallery-big-photo js-big-photo" style="background-image: url('/img/dmdra1.jpg');">
+                      </div>
+                  </div>
+                  <div class="product__gallery-thumbs-row">
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/dmdra1.jpg" style="background-image: url('/img/dmdra1.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/dmdra2.jpg" style="background-image: url('/img/dmdra2.jpg')"></div>
+                          </div>
+                                                <div class="product__gallery-item">
+                              <div class="product__gallery-thumbs js-thumbs" data-info_text="" data-bigimage="/img/dmdra3.jpg" style="background-image: url('/img/dmdra3.jpg')"></div>
+                          </div>
+                                        </div>
+                  <p>
+                    <span class="product__btn">Рассказ о товаре...</span>
+                  </p>
+                </div>
+              </div>
+              <div class="main__col-main">
+                <p style="margin-top: 10px"><b>Начало продаж </b></p>
+                <p></p>
+                <div>
+                  <b>Размеры товара</b><br>
+                  <table class="main__top-table" style="width: 100%">
+                    <tr>
+                      <td>Длинна</td>
+                      <td>Британская <br> 69.6 дюйм</td>
+                      <td>Метрическая <br> 1.74 м.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__main">
+                  <p><b>Количество</b></p>
+                  <table class="main__main-table">
+                    <tr>
+                      <td><b>Размер упаковки</b></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Количество</td><td></td><td>1</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Длина</td><td>71.6 дюйм
+                      </td><td>1.79 м.</td>
+                    </tr>
+                    <tr>
+                      <td>Ширина</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Высота</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Диаметр</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес нетто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Вес брутто</td><td>-</td><td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Объем брутто</td><td>-</td><td>-</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="main__bottom">
+                  <p>
+                  <b>Полезная информация</b><br>
+                  -
+                  </p>
+                  <p>
+                  <b>Общая информация</b> <br>
+                  Любит сыр                  </p>
+                  <p>
+                  <b>Потребительские качества</b> <br>
+                  Технически очень грамотый и сообразительный                  </p>
+                  <p>
+                  <b>Инструкции по уходу</b> <br>
+                  Тщательный уход за бородой просто необходим. Нельзя давать молоко!                  </p>
+                  <p>
+                  <b>Экологическая информация</b> <br>
+                  Крайне экологичен                  </p>
+                  <b>Материалы</b> <br>
+                  <table class="main__bottom-table">
+                    <tr>
+                      <td>Наполнитель:</td><td>Какие-то микрочипы и немного магии</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td><td></td>
+                    </tr>
+                    <tr>
+                      <td><b>Основная информация</b></td><td></td>
+                    </tr>
+                    <tr>
+                      <td>Группа товаров:</td><td>Не для детей</td>
+                    </tr>
+                    <tr>
+                      <td>Подразделение, к <br>
+                      которому относится <br>
+                      данный товар:</td><td>Kitchen department from IKEA DYBENKO</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+                </div>
+
+			</main>
+
+		</div>
+
+<script>
+(function (){
+
+  var option = {
+    rootTag: "body",
+    itemTag: ".js-tab",
+    selectTag: ".js-select",
+    activeClass: "is-active"
+  };
+
+  if (option.rootTag && option.itemTag) {
+    if (document.querySelector(option.rootTag) && document.querySelector(option.itemTag) ) {
+      run(option);
+    } else {
+      if (!document.querySelector(option.rootTag)) {
+        // console.log("не найден корневой элемент " + option.rootTag);
+      } else {
+        if (!document.querySelector(option.itemTag)) {
+          console.error("не найден список табов " + option.itemTag);
+        }
+      }
+    }
+  } else {
+    console.error("табам не заданы необходимые параметры");
+  }
+
+  // запуск слайдера
+  function run(option) {
+
+    var rootList = document.querySelectorAll(option.rootTag);
+    rootList = Array.from(rootList);
+    var itemTag = option.itemTag;
+    var selectTag = option.selectTag;
+
+
+    // инициализация
+    rootList.forEach(function (rootEl, rootId) {
+
+      var currentTab = 0;
+      var itemList = rootEl.querySelectorAll(itemTag);
+      itemList = Array.from(itemList);
+      var selectEl = rootEl.querySelector(selectTag);
+      var optionList = selectEl.querySelectorAll("option");
+      var activeClass = option.activeClass+"-"+rootId;
+      var itemClass = itemTag.slice(1);
+      var tabCss = `.${itemClass} {display: none;} `;
+
+      if(itemList.length !== optionList.length) {
+        console.error("Количество табов "+itemList.length+" не равно количеству селектов "+optionList.length);
+      }
+
+      // установка id на табы и селекты
+      itemList.forEach(function (item, i) {
+        item.dataset.tab = i;
+        optionList[i].value = i;
+
+        // создание стилей
+        var currentTabClass = itemClass+"--"+i;
+        item.classList.add(currentTabClass);
+        var currentActiveClass = activeClass+"--"+i;
+        tabCss = tabCss + `.${currentActiveClass} .${currentTabClass} {display: block;} `;
+      });
+
+      var style = document.createElement('style');
+      style.innerHTML = tabCss;
+      document.body.appendChild(style);
+
+      // установка активного пункта селекта
+      selectEl.options.selectedIndex = currentTab;
+
+      // установка класса и атрибута на rootEl
+      rootEl.dataset.activeTab = currentTab;
+
+      // установка первого таба
+      goTab();
+
+      function goTab() {
+        itemList.forEach(function (item, i) {
+          if(rootEl.classList.contains(activeClass+"--"+i)){
+            rootEl.classList.remove(activeClass+"--"+i);
+          }
+        });
+
+        rootEl.classList.add(activeClass+"--"+currentTab);
+        rootEl.dataset.activeTab = currentTab;
+      }
+
+      // переключение селекта
+      selectEl.addEventListener("change", (e) => {
+        var selectEl = e.target;
+        currentTab = selectEl.options.selectedIndex;
+        goTab();
+      });
+
+    });
+
+  }
+
+
+})();
+
+(function() {
+
+  var option = {
+    rootTag: ".js-mini-gallery",
+    bigPhotoTag: ".js-big-photo",
+    itemTag: ".js-thumbs",
+    data: "bigimage"
+  };
+
+  // проверка
+  if (option.rootTag && option.bigPhotoTag && option.itemTag && option.data) {
+      if (document.querySelector(option.rootTag) && document.querySelector(option.bigPhotoTag) && document.querySelector(option.itemTag)) {
+          run(option);
+      } else {
+          if (!document.querySelector(option.rootTag)) {
+              // console.log("не найден корневой элемент " + option.rootTag);
+          } else {
+              if (!document.querySelector(option.bigPhotoTag)) {
+                  console.error("не найден блок для вывода картинки " + option.nameTag);
+              }
+
+              if (!document.querySelector(option.itemTag)) {
+                  console.error("не найдены превью " + option.itemTag);
+              }
+          }
+      }
+  } else {
+      console.error("минигалерее не заданы необходимые параметры");
+  }
+
+  // запуск
+  function run(option) {
+      // console.log("Минигалерея " + option.rootTag);
+      var rootList = document.querySelectorAll(option.rootTag);
+      rootList = Array.from(rootList);
+
+      var init = function(rootEl) {
+          var bigPhoto = rootEl.querySelector(option.bigPhotoTag);
+          var itemList = rootEl.querySelectorAll(option.itemTag);
+          itemList = Array.from(itemList);
+
+          itemList.forEach(function (item, i, arr) {
+              item.onclick = function(e) {
+                  itemList.forEach(function (item, i, arr) {
+                      item.classList.remove("is-active");
+                  });
+                  var imgUrl = item.getAttribute("data-" + option.data);
+                  bigPhoto.style.backgroundImage =  "url("+imgUrl+")";
+                  item.classList.add("is-active");
+              };
+          });
+
+          itemList[0].classList.add("is-active");
+      };
+
+      rootList.forEach(function (rootEl, i, arr) {
+          init(rootEl);
+      });
+  }
+
+})();
+
+</script>
+
+
+
+
+
+
+	</body>
+</html>
