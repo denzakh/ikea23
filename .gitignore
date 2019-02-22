@@ -1,0 +1,16 @@
+!.gitignore
+.htaccess
+.htaccess.old
+.htpasswd
+.idea
+/assets
+protected/config/db.php
+protected/runtime
+uploads/
+robots.txt
+/node_modules
+/files/build
+/files/admin/build/
+/app/build/
+.editorconfig
+.gitattributes
