@@ -2,7 +2,7 @@
   $manJsonFile = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/man-list.json");
   $manArr = json_decode($manJsonFile);
   $manCountAll = count($manArr);
-  $imgPrefix = "/img/";
+  $imgPrefix = "img/";
 ?>
 
 <!DOCTYPE html>
@@ -152,7 +152,7 @@
 	<body>
 		<div class="body-wrapper">
       <header>
-        <img src="/img/header.jpg" alt="" class="header__top-img">
+        <img src="img/header.jpg" alt="" class="header__top-img">
         <select id="" class="header__select js-select">
         <?php for ($manCount = 0; $manCount < $manCountAll; $manCount++): ?>
           <?php $manItem = $manArr[$manCount]; ?>
