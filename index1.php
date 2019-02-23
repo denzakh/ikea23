@@ -147,6 +147,14 @@
       .product__btn:hover {
         opacity: 0.9;
       }
+      .main__copy {
+        max-width: 780px;
+        text-align: right;
+        font-size: 11px;
+        color: #cccccc;
+        padding-top: 10px;
+        padding-right: 28px;
+      }
     </style>
 	</head>
 	<body>
@@ -196,7 +204,7 @@
                   <b>Размеры товара</b><br>
                   <table class="main__top-table" style="width: 100%">
                     <tr>
-                      <td>Длинна</td>
+                      <td>Длина</td>
                       <td>Британская <br> <?php $length = (float)$manItem->length; echo $length*40; ?> дюйм</td>
                       <td>Метрическая <br> <?php echo $manItem->length; ?> м.</td>
                     </tr>
@@ -284,8 +292,10 @@
             </div>
           </div>
         <?php endfor; ?>
+          <div class="main__copy">
+            Сделано Dенисом Захарченко и Александрой Бурштейн
+          </div>
         </div>
-
 			</main>
 
 		</div>
